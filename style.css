@@ -1,0 +1,293 @@
+:root {
+    --font-title: Nunito Sans;
+    --font-subtitle: Chivos;
+    --font-maintext: Robot Slab;
+    --main-color:rgb(10, 11, 10);  
+    --main-color2: rgb(244, 249, 233);
+    --main-color3:rgb(15, 15, 15);
+    --main-color4: rgb(42, 43, 41);
+    --main-color5: rgb(77, 8, 5);
+    --main-color6: rgb(250, 196, 24);
+    --main-color7:  #171717;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*------ AQUI EMPIEZA EL MAIN ----- */
+
+.main-nav {
+    height: 10%;
+    width: 100vw;
+    background-color: var(--main-color7);
+    position: absolute;
+}
+
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 100vh;
+    background-color: var(--main-color3);
+}
+
+.img-container {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap; 
+}
+
+.main-img {
+    width: 100%;
+    height: 50%;
+}
+
+.titles-container {
+    max-width: 80%; 
+}
+
+.main-container-title2 {
+    font-family: var(--font-subtitle);
+    color: var(--main-color4);
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding: 10px 0px 10px 0px;
+}
+
+.main-container-title {
+    font-family:var(--font-maintext);
+    letter-spacing: 2px;
+    color: var(--main-color2);
+    font-size: 2.3rem;
+    padding-bottom: 20px;
+}
+
+a .main-container-btn {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    top: 45px;
+    background-color: var(--main-color6);
+    border-style: none;
+    border-radius: 2px;
+    font-family:var(--font-title);
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+/*------ AQUI EMPIEZA EL MAIN BANDAS ------*/
+
+.main-bandas {
+    background-color: rgb(255, 255, 255);
+}
+
+.main-bandas-hijo-container {
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+}
+
+.title-lineup {
+    font-family: var(--font-subtitle);
+    padding: 20px 0px 50px 0px;
+    font-size: 3.5rem;
+}
+
+.main-bandas-container {
+    display: grid;
+    gap: 2rem;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    padding-bottom: 1rem; 
+}
+
+.img-banda {
+    width: 100%;
+}
+
+a {
+    color: var(--main-color3);
+    text-decoration: none;
+}
+
+.main-banda-titulo {
+    font-family: var(--font-subtitle);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.main-banda-texto {
+    font-family: var(--font-maintext);
+}
+
+/* ------- AQUI COMIENZA EL SONG CONTAINER----- */  
+
+.songs-fastival-container-padre {
+    background-color: #141313;
+    position: relative;
+    top: -5px;
+    display: grid;
+    gap: 4rem;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    padding-bottom: 1rem;
+}
+
+.songs-festival-container-hijo {
+    width: 70%; 
+}
+
+.songs-title {
+    font-family: var(--font-subtitle);
+    font-size: 2.5rem;
+    color: var(--main-color2);
+    padding-bottom: 2rem;
+}
+
+.song-preview-container .song-preview-container-hijo {
+    padding-bottom: 2rem;
+}
+
+.svg-2 {
+    position: relative;
+    top: -6px;
+}
+
+/* ------ AQUI COMIENZA EL NEWSLETTER------ */
+
+.newsletter-main {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 90%;
+    padding-bottom: 3rem; 
+}
+
+.newsletter-main-title {
+    font-family: var(--font-subtitle);
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.newsletter-subtitle {
+    font-family: var(--font-maintext);
+    font-size: 1.7rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.newsletter-subtitle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap; 
+}
+
+.input-text-nl {
+    width: 80%;
+    height: 3rem;
+    margin-bottom: 2rem;
+    border-style: none;
+    background-color: var(--main-color4);
+    border-radius: 5px;
+    text-align: center;
+    font-family: var(--font-maintext);
+    font-weight: bold;
+    font-size: 1rem;
+}       
+
+.input-text-nl::placeholder{
+    color: rgb(250, 196, 24);
+}
+
+.input-text-nl:focus {
+    color: rgb(250, 196, 24);
+}
+
+a{
+    width: 100%;
+    text-align: center;
+}
+
+.input-btn-nl {
+    width: 70%;
+    height: 3.7rem;
+    border-style: none;
+    background-color: var(--main-color6);
+    border-radius: 5px;
+    font-family: var(--font-subtitle);
+    font-size: 1.5rem;
+}
+
+/* ------ AQUI COMIENZA EL MAIN FOOTER----- */
+
+.main-footer {
+    background-color: #141313;
+    position: relative;
+    top: -5px;
+}
+
+.footer-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.footer-title {
+    color: var(--main-color2);
+    font-family: var(--font-subtitle);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.footer-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 70%;
+    padding-bottom: 4rem;
+}
+
+.social-logo {
+    width: 3rem;
+    color: white;
+}        
+
+/* ----- AQUI COMIENZA EL MAIN FOOTER 2 */
+
+.main-footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.main-footer-container {
+    height: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(42, 43, 41);
+}
+
+.main-footer-txt {
+    font-family: var(--font-maintext);
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: .5rem;
+}
+
+
