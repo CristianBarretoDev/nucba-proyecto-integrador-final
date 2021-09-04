@@ -1,7 +1,7 @@
 :root {
     --font-title: Nunito Sans;
-    --font-subtitle: Chivos;
-    --font-maintext: Robot Slab;
+    --font-subtitle: Chivo;
+    --font-maintext: Roboto Slab;
     --main-color:rgb(10, 11, 10);  
     --main-color2: rgb(244, 249, 233);
     --main-color3:rgb(15, 15, 15);
@@ -213,13 +213,13 @@ a {
     color: rgb(250, 196, 24);
 }
 
-a{
-    width: 100%;
+.input-btn-nl-a{
     text-align: center;
+    width: 100%;
 }
 
 .input-btn-nl {
-    width: 70%;
+    width: 80%;
     height: 3.7rem;
     border-style: none;
     background-color: var(--main-color6);
@@ -289,5 +289,10 @@ a {
     letter-spacing: 2px;
     padding: .5rem;
 }
+
+.main-footer-txt:visited {
+    color: var(--main-color);
+}
+
 
 
